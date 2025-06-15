@@ -13,14 +13,14 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class ConsoleView {
+public class ConsoleAdminView {
     private Scanner scanner;
     private UsuarioService usuarioService;
     private PontoDeColetaService pontoDeColetaService;
     private AgendamentoService agendamentoService;
     private Usuario usuarioLogado;
 
-    public ConsoleView() {
+    public ConsoleAdminView() {
         scanner = new Scanner(System.in);
         usuarioService = new UsuarioService();
         pontoDeColetaService = new PontoDeColetaService();
